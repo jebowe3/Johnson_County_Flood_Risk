@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Johnson County, IA Flood Risk Areas</title>
+
+  <!-- link to Montserrat font -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- link the css files -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css">
+
+  <!-- for info button -->
+  <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+  <link rel="stylesheet" href="css/easy-button.css">
+
+  <!-- rest of css -->
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Johnson County, IA Flood Risk Areas</h1><br>
+    <h2>Digital Scholarship & Publishing Studio, University of Iowa Libraries</h2>
+  </header>
+
+
+  <!-- the map will go inside this div below -->
+  <div id="map"></div>
+
+  <!-- button-dependent info window -->
+  <div id="dialog" title="Flood Risk in Johnson County">
+    <h4>This is a map of FEMA flood risk areas in Johnson County, Iowa. These
+      risk classifications include 1-percent-annual-chance flood event,
+      0.2-percent-annual-chance flood event, and areas of minimal flood risk.
+      Click on the map layers for more details.
+      <a href="https://geo.btaa.org/catalog/fa3f6491-75ee-4e4f-bc72-1df20bfd11fe" style='color: blue;' target="_blank">Flood data</a>
+      can be found at the BTAA Geoportal. <a href="https://geodata.iowa.gov/dataset/county-boundaries-iowa" style='color: blue;' target="_blank">Iowa county boundaries</a>
+      can be found at the Iowa Geodata web resource.
+    </h4>
+  </div>
+  <!-- end button-dependent info window -->
+
+  <!-- link to the js files -->
+  <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <!-- for button-dependent map information window -->
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/easy-button.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
