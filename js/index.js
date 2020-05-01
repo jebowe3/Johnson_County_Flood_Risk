@@ -1,13 +1,13 @@
 // initialize our map
 var map = L.map('map', {
   center: [41.658939, -91.534605], //center map on Iowa City, IA
-  zoom: 9 //set the zoom level
+  zoom: 11 //set the zoom level
 });
 
 //add esri topo basemap
 L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-  maxZoom: 15,
-  minZoom: 8,
+  maxZoom: 18,
+  minZoom: 10,
   attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
 }).addTo(map);
 
