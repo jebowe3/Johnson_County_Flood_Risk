@@ -1,7 +1,7 @@
 // initialize our map
 var map = L.map('map', {
-  center: [41.658939, -91.534605], //center map on Iowa City, IA
-  zoom: 11 //set the zoom level
+  //center: [41.658939, -91.534605], //center map on Iowa City, IA
+  //zoom: 10 //set the zoom level
 });
 
 //add esri topo basemap
